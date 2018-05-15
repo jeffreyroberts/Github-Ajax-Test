@@ -78,6 +78,9 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->fallbacks(DashedRoute::class);
 });
 
+Router::connect('/search', ['controller' => 'Search', 'action' => 'search']);
+Router::connect('/followers', ['controller' => 'Search', 'action' => 'followers']);
+
 /**
  * Load all plugin routes. See the Plugin documentation on
  * how to customize the loading of plugin routes.
