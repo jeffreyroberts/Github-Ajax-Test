@@ -11,8 +11,7 @@
             <input type="text" name="search" placeholder="Search Github Users" />
         </div>
         <div class="row" style="width: 350px; margin-left: 350px;">
-            <input type="submit" name="submit" id="submit" value="Submit Search" />&nbsp;&nbsp;
-            <input type="submit" name="submit" id="lucky" value="I'm Feeling Lucky" />
+            <input type="submit" name="submit" id="submit" value="Submit Search" />
         </div>
     </form>
 </div>
